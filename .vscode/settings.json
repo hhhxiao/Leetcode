@@ -69,7 +69,10 @@
         "xmemory": "cpp",
         "xstddef": "cpp",
         "xtr1common": "cpp",
-        "stack": "cpp"
+        "stack": "cpp",
+        "map": "cpp",
+        "unordered_set": "cpp",
+        "xtree": "cpp"
     },
     "C_Cpp.intelliSenseEngineFallback": "Enabled"
 }
