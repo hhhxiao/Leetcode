@@ -22,6 +22,8 @@ vector<double> sampleStats(vector<int>& count) {
                 most_times_idx = i;
             }
         }
+
+        std::max();
         sum += count[i] * i;
     }
 
