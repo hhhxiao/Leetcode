@@ -72,7 +72,8 @@
         "stack": "cpp",
         "map": "cpp",
         "unordered_set": "cpp",
-        "xtree": "cpp"
+        "xtree": "cpp",
+        "numbers": "cpp"
     },
     "C_Cpp.intelliSenseEngineFallback": "Enabled"
 }
