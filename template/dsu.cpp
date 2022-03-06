@@ -1,5 +1,11 @@
 #include <vector>
-std::vector<int> fa(10000, 1);
+std::vector<int> fa;
+void init() {
+    for (int i = 0; i < fa.size(); i++) {
+        fa[i] = i;
+    }
+}
+
 //查询
 int find(int x) {
     if (x != fa[x])  // x 不是自身的父亲，即 x 不是该集合的代表

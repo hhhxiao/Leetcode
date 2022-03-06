@@ -35,7 +35,10 @@ string longestPalindrome(string s) {
     return s.substr(l1, l2 - l1 + 1);
 }
 
-int main(int argc, char const *argv[]) {
-    dbg(longestPalindrome("123212"));
+int main() {
+    const char *strs[] = {"a", "b", "c"};
+    for (int i = 0; i < 3; i++) {
+        printf("%s\n", strs[i]);
+    }
     return 0;
 }
