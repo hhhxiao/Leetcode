@@ -74,7 +74,10 @@
         "unordered_set": "cpp",
         "xtree": "cpp",
         "numbers": "cpp",
-        "thread": "cpp"
+        "thread": "cpp",
+        "charconv": "cpp",
+        "format": "cpp",
+        "forward_list": "cpp"
     },
     "C_Cpp.intelliSenseEngineFallback": "Enabled"
 }
