@@ -46,9 +46,13 @@ class RangeFreqQuery {
 };
 
 int main() {
+    const char* str = "qaq";
+    const char* s2 = "tnt";
+    str = s2;
+    printf("%s", str);
     // 2
-    std::vector<int> v{12, 33, 4, 4, 56, 22, 2, 34, 33, 22, 12, 34, 56};
-    RangeFreqQuery f(v);
-    printf("%d", f.query(3, 3, 4));
+    // std::vector<int> v{12, 33, 4, 4, 56, 22, 2, 34, 33, 22, 12, 34, 56};
+    // RangeFreqQuery f(v);
+    // printf("%d", f.query(3, 3, 4));
     return 0;
 }
