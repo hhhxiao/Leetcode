@@ -42,6 +42,7 @@ class LRUCache {
             //找到了,擦除旧的，并挪动到头部
             list.erase(iter->second);
             this->list.insert(list.begin(), {key, value});
+            this->cache[key] = list.begin();
         }
     }
 
