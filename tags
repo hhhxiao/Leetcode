@@ -1,0 +1,602 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/xhy/Leetcode/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210905.0/
+0	.vscode/c_cpp_properties.json	/^                "${default}"$/;"	s	array:configurations.0.includePath
+0	.vscode/c_cpp_properties.json	/^                "_DEBUG",$/;"	s	array:configurations.0.defines
+0	.vscode/c_cpp_properties.json	/^        {$/;"	o	array:configurations
+0	.vscode/launch.json	/^                {$/;"	o	array:configurations.0.setupCommands
+0	.vscode/launch.json	/^        {$/;"	o	array:configurations
+0	.vscode/tasks.json	/^                "$gcc"$/;"	s	array:tasks.0.problemMatcher
+0	.vscode/tasks.json	/^                "-fdiagnostics-color=always",$/;"	s	array:tasks.0.args
+0	.vscode/tasks.json	/^        {$/;"	o	array:tasks
+1	.vscode/c_cpp_properties.json	/^                "UNICODE",$/;"	s	array:configurations.0.defines
+1	.vscode/tasks.json	/^                "-g",$/;"	s	array:tasks.0.args
+2	.vscode/c_cpp_properties.json	/^                "_UNICODE"$/;"	s	array:configurations.0.defines
+2	.vscode/tasks.json	/^                "${file}",$/;"	s	array:tasks.0.args
+3	.vscode/tasks.json	/^                "-o",$/;"	s	array:tasks.0.args
+4	.vscode/tasks.json	/^                "${fileDirname}\\\\${fileBasenameNoExtension}.exe"$/;"	s	array:tasks.0.args
+ANSI_DEBUG	dbg.h	/^  static constexpr const char* const ANSI_DEBUG = "\\x1b[02m";$/;"	m	class:dbg::DebugOutput	typeref:typename:const char * const
+ANSI_EMPTY	dbg.h	/^  static constexpr const char* const ANSI_EMPTY = "";$/;"	m	class:dbg::DebugOutput	typeref:typename:const char * const
+ANSI_EXPRESSION	dbg.h	/^  static constexpr const char* const ANSI_EXPRESSION = "\\x1b[36m";$/;"	m	class:dbg::DebugOutput	typeref:typename:const char * const
+ANSI_RESET	dbg.h	/^  static constexpr const char* const ANSI_RESET = "\\x1b[0m";$/;"	m	class:dbg::DebugOutput	typeref:typename:const char * const
+ANSI_TYPE	dbg.h	/^  static constexpr const char* const ANSI_TYPE = "\\x1b[32m";$/;"	m	class:dbg::DebugOutput	typeref:typename:const char * const
+ANSI_VALUE	dbg.h	/^  static constexpr const char* const ANSI_VALUE = "\\x1b[01m";$/;"	m	class:dbg::DebugOutput	typeref:typename:const char * const
+ANSI_WARN	dbg.h	/^  static constexpr const char* const ANSI_WARN = "\\x1b[33m";$/;"	m	class:dbg::DebugOutput	typeref:typename:const char * const
+C_Cpp.intelliSenseEngineFallback	.vscode/settings.json	/^    "C_Cpp.intelliSenseEngineFallback": "Enabled"$/;"	s
+DBG_16TH	dbg.h	/^#define DBG_16TH(/;"	d
+DBG_16TH_IMPL	dbg.h	/^#define DBG_16TH_IMPL(/;"	d
+DBG_CALL	dbg.h	/^#define DBG_CALL(/;"	d
+DBG_CAT	dbg.h	/^#define DBG_CAT(/;"	d
+DBG_CAT_IMPL	dbg.h	/^#define DBG_CAT_IMPL(/;"	d
+DBG_HEAD	dbg.h	/^#define DBG_HEAD(/;"	d
+DBG_HEAD_IMPL	dbg.h	/^#define DBG_HEAD_IMPL(/;"	d
+DBG_IDENTITY	dbg.h	/^#define DBG_IDENTITY(/;"	d
+DBG_MACRO_CXX_STANDARD	dbg.h	/^#define DBG_MACRO_CXX_STANDARD /;"	d
+DBG_MACRO_DBG_H	dbg.h	/^#define DBG_MACRO_DBG_H$/;"	d
+DBG_MACRO_NO_WARNING	5.cpp	/^#define DBG_MACRO_NO_WARNING /;"	d	file:
+DBG_MACRO_PRETTY_FUNCTION	dbg.h	/^#define DBG_MACRO_PRETTY_FUNCTION /;"	d
+DBG_MACRO_UNIX	dbg.h	/^#define DBG_MACRO_UNIX$/;"	d
+DBG_MACRO_WINDOWS	dbg.h	/^#define DBG_MACRO_WINDOWS$/;"	d
+DBG_MAP	dbg.h	/^#define DBG_MAP(/;"	d
+DBG_MAP_1	dbg.h	/^#define DBG_MAP_1(/;"	d
+DBG_MAP_10	dbg.h	/^#define DBG_MAP_10(/;"	d
+DBG_MAP_11	dbg.h	/^#define DBG_MAP_11(/;"	d
+DBG_MAP_12	dbg.h	/^#define DBG_MAP_12(/;"	d
+DBG_MAP_13	dbg.h	/^#define DBG_MAP_13(/;"	d
+DBG_MAP_14	dbg.h	/^#define DBG_MAP_14(/;"	d
+DBG_MAP_15	dbg.h	/^#define DBG_MAP_15(/;"	d
+DBG_MAP_16	dbg.h	/^#define DBG_MAP_16(/;"	d
+DBG_MAP_2	dbg.h	/^#define DBG_MAP_2(/;"	d
+DBG_MAP_3	dbg.h	/^#define DBG_MAP_3(/;"	d
+DBG_MAP_4	dbg.h	/^#define DBG_MAP_4(/;"	d
+DBG_MAP_5	dbg.h	/^#define DBG_MAP_5(/;"	d
+DBG_MAP_6	dbg.h	/^#define DBG_MAP_6(/;"	d
+DBG_MAP_7	dbg.h	/^#define DBG_MAP_7(/;"	d
+DBG_MAP_8	dbg.h	/^#define DBG_MAP_8(/;"	d
+DBG_MAP_9	dbg.h	/^#define DBG_MAP_9(/;"	d
+DBG_NARG	dbg.h	/^#define DBG_NARG(/;"	d
+DBG_STRINGIFY	dbg.h	/^#define DBG_STRINGIFY(/;"	d
+DBG_STRINGIFY_IMPL	dbg.h	/^#define DBG_STRINGIFY_IMPL(/;"	d
+DBG_TAIL	dbg.h	/^#define DBG_TAIL(/;"	d
+DBG_TAIL_IMPL	dbg.h	/^#define DBG_TAIL_IMPL(/;"	d
+DBG_TYPE_NAME	dbg.h	/^#define DBG_TYPE_NAME(/;"	d
+DBG_VARIADIC_CALL	dbg.h	/^#define DBG_VARIADIC_CALL(/;"	d
+DebugOutput	dbg.h	/^  DebugOutput(const char* filepath, int line, const char* function_name)$/;"	f	class:dbg::DebugOutput
+DebugOutput	dbg.h	/^class DebugOutput {$/;"	c	namespace:dbg
+Get	12.cpp	/^std::string Get(int num, int level) {$/;"	f	typeref:typename:std::string
+ListNode	24.cpp	/^    ListNode() : val(0), next(nullptr) {}$/;"	f	struct:ListNode	file:
+ListNode	24.cpp	/^    ListNode(int x) : val(x), next(nullptr) {}$/;"	f	struct:ListNode	file:
+ListNode	24.cpp	/^    ListNode(int x, ListNode *next) : val(x), next(next) {}$/;"	f	struct:ListNode	file:
+ListNode	24.cpp	/^struct ListNode {$/;"	s	file:
+MAX_PATH_LENGTH	dbg.h	/^  static constexpr std::size_t MAX_PATH_LENGTH = 20;$/;"	m	class:dbg::DebugOutput	typeref:typename:std::size_t
+MIMode	.vscode/launch.json	/^            "MIMode": "gdb",$/;"	s	object:configurations.0
+PREFIX_LENGTH	dbg.h	/^static constexpr size_t PREFIX_LENGTH =$/;"	v	namespace:dbg::pretty_function	typeref:typename:size_t
+SUFFIX_LENGTH	dbg.h	/^static constexpr size_t SUFFIX_LENGTH = sizeof("]") - 1;$/;"	v	namespace:dbg::pretty_function	typeref:typename:size_t
+Solution	1759.cpp	/^class Solution {$/;"	c	file:
+Solution	384.cpp	/^    Solution(vector<int>& nums) { this->data_ = nums; }$/;"	f	class:Solution	file:
+Solution	384.cpp	/^class Solution {$/;"	c	file:
+Solution	398.cpp	/^    Solution(vector<int>& nums) {$/;"	f	class:Solution	file:
+Solution	398.cpp	/^class Solution {$/;"	c	file:
+SpiltChunksToPiece	43.cpp	/^ std::map<int,std::set<int>> SpiltChunksToPiece(const std::vector<int>& chunk_list_ ,size_t n,fl/;"	f	typeref:typename:std::map<int,std::set<int>>
+TreeNode	ds.h	/^    TreeNode() : val(0), left(nullptr), right(nullptr) {}$/;"	f	struct:TreeNode
+TreeNode	ds.h	/^    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}$/;"	f	struct:TreeNode
+TreeNode	ds.h	/^    TreeNode(int x, TreeNode *left, TreeNode *right)$/;"	f	struct:TreeNode
+TreeNode	ds.h	/^struct TreeNode {$/;"	s
+UnderlyingType	dbg.h	/^  using UnderlyingType = typename std::underlying_type<Enum>::type;$/;"	t	function:dbg::pretty_print	typeref:typename:std::underlying_type<Enum>::type
+Vec	593.cpp	/^    typedef pair<int, int> Vec;$/;"	t	function:validSquare	typeref:typename:pair<int,int>	file:
+__anon0ef536770102	a.cpp	/^    for_each(v.begin(), v.end(), [=](int val) {$/;"	f	function:main	file:
+__anon0f480c280111	dbg.h	/^namespace {$/;"	n	namespace:dbg::detail
+__anon0f480c280202	dbg.h	/^  std::visit([&stream](auto&& arg) { pretty_print(stream, arg); }, value);$/;"	f	function:dbg::pretty_print	file:
+__anon25c6fc100102	451.cpp	/^    auto Cp = [](pair<int, int> left, pair<int, int> right) {$/;"	f	function:frequencySort	file:
+__anon30bb30f10102	offerII.45.cpp	/^              [](const std::string& l, const std::string& r) {$/;"	f	function:minNumber	file:
+__anon44135b170102	179.cpp	/^    std::sort(strs.begin(), strs.end(), [](const string& s1, const string& s2) {$/;"	f	function:largestNumber	file:
+__anon575ac6730102	841.cpp	/^                       [](int v) { return v == 1; });$/;"	f	function:canVisitAllRooms	file:
+__anon6c0b23070102	1637.cpp	/^              [](const std::vector<int> &l, const std::vector<int> &r) {$/;"	f	function:maxWidthOfVerticalArea	file:
+__anon7582f4780102	567.cpp	/^    if (std::all_of(hash.begin(), hash.end(), [](int c) { return c == 0; })) {$/;"	f	function:checkInclusion	file:
+__anon7582f4780202	567.cpp	/^                        [](int c) { return c == 0; })) {$/;"	f	function:checkInclusion	file:
+__anon829e047d0102	34.cpp	/^    auto idx2 = std::upper_bound(nums.rbegin(),nums.rend(),target,[](int x1,int x2){$/;"	f	function:searchRange	file:
+__anon876c86c10102	56.cpp	/^              [](const std::vector<int>& l, const std::vector<int>& r) {$/;"	f	function:merge	file:
+__anonc92230970102	692.cpp	/^                         const std::pair<std::string, size_t>& p2) {$/;"	f	function:topKFrequent	file:
+__anond6e429b40102	347.cpp	/^        [](const std::pair<int, int>& p1, const std::pair<int, int>& p2) {$/;"	f	function:topKFrequent	file:
+__anondfcd3b470102	1493.cpp	/^    if (std::all_of(nums.begin(), nums.end(), [](int v) { return v == 1; })) {$/;"	f	function:longestSubarray	file:
+algorithm	.vscode/settings.json	/^        "algorithm": "cpp",$/;"	s	object:files.associations
+angleClock	1344.cpp	/^double angleClock(int hour, int minutes) {$/;"	f	typeref:typename:double
+ansi	dbg.h	/^  const char* ansi(const char* code) const {$/;"	f	class:dbg::DebugOutput	typeref:typename:const char *
+args	.vscode/launch.json	/^            "args": [],$/;"	a	object:configurations.0
+args	.vscode/tasks.json	/^            "args": [$/;"	a	object:tasks.0
+array	.vscode/settings.json	/^        "array": "cpp",$/;"	s	object:files.associations
+atomic	.vscode/settings.json	/^        "atomic": "cpp",$/;"	s	object:files.associations
+base	dbg.h	/^  int base;$/;"	m	struct:dbg::print_formatted	typeref:typename:int
+bfs	1765.cpp	/^void bfs(vector<vector<int>>& mat, const pair<int, int>& seed) {$/;"	f	typeref:typename:void
+bin	dbg.h	/^print_formatted<T> bin(T value) {$/;"	f	namespace:dbg	typeref:typename:print_formatted<T>
+bit	.vscode/settings.json	/^        "bit": "cpp",$/;"	s	object:files.associations
+bit_index	1371.cpp	/^int bit_index(char c) {$/;"	f	typeref:typename:int
+bitset	.vscode/settings.json	/^        "bitset": "cpp",$/;"	s	object:files.associations
+cStandard	.vscode/c_cpp_properties.json	/^            "cStandard": "c17",$/;"	s	object:configurations.0
+calculate	224.cpp	/^int calculate(const string& s) {$/;"	f	typeref:typename:int
+canArrange	1497.cpp	/^bool canArrange(const vector<int>& arr, int k) {$/;"	f	typeref:typename:bool
+canJump	55.cpp	/^bool canJump(vector<int>& nums) {$/;"	f	typeref:typename:bool
+canVisitAllRooms	841.cpp	/^bool canVisitAllRooms(vector<vector<int>>& rooms) {$/;"	f	typeref:typename:bool
+cctype	.vscode/settings.json	/^        "cctype": "cpp",$/;"	s	object:files.associations
+checkInclusion	567.cpp	/^bool checkInclusion(string s1, string s2) {$/;"	f	typeref:typename:bool
+chrono	.vscode/settings.json	/^        "chrono": "cpp",$/;"	s	object:files.associations
+clocale	.vscode/settings.json	/^        "clocale": "cpp",$/;"	s	object:files.associations
+closestDivisors	1362.cpp	/^vector<int> closestDivisors(int num) {}$/;"	f	typeref:typename:vector<int>
+cmath	.vscode/settings.json	/^        "cmath": "cpp",$/;"	s	object:files.associations
+command	.vscode/tasks.json	/^            "command": "C:\\\\TDM-GCC-64\\\\bin\\\\g++.exe",$/;"	s	object:tasks.0
+compare	.vscode/settings.json	/^        "compare": "cpp",$/;"	s	object:files.associations
+compilerPath	.vscode/c_cpp_properties.json	/^            "compilerPath": "C:\\\\Program Files (x86)\\\\Microsoft Visual Studio\\\\2019\\\\Com/;"	s	object:configurations.0
+concepts	.vscode/settings.json	/^        "concepts": "cpp",$/;"	s	object:files.associations
+configurations	.vscode/c_cpp_properties.json	/^    "configurations": [$/;"	a
+configurations	.vscode/launch.json	/^    "configurations": [$/;"	a
+conns_to_graph	template/graph.cpp	/^void conns_to_graph() {$/;"	f	typeref:typename:void
+countHomogenous	1759.cpp	/^    int countHomogenous(string s) {$/;"	f	class:Solution	typeref:typename:int	file:
+countPairs	1711.cpp	/^int countPairs(vector<int>& deliciousness) {$/;"	f	typeref:typename:int
+countPrimes	204.cpp	/^int countPrimes(int n) {$/;"	f	typeref:typename:int
+countSubstrings	647.cpp	/^int countSubstrings(const std::string &s) {$/;"	f	typeref:typename:int
+countVowels	2063.cpp	/^long long countVowels(string word) {$/;"	f	typeref:typename:long long
+cover	89.cpp	/^uint32_t cover(uint32_t val, int n) {$/;"	f	typeref:typename:uint32_t
+cppStandard	.vscode/c_cpp_properties.json	/^            "cppStandard": "c++17",$/;"	s	object:configurations.0
+cstddef	.vscode/settings.json	/^        "cstddef": "cpp",$/;"	s	object:files.associations
+cstdint	.vscode/settings.json	/^        "cstdint": "cpp",$/;"	s	object:files.associations
+cstdio	.vscode/settings.json	/^        "cstdio": "cpp",$/;"	s	object:files.associations
+cstdlib	.vscode/settings.json	/^        "cstdlib": "cpp",$/;"	s	object:files.associations
+cstring	.vscode/settings.json	/^        "cstring": "cpp",$/;"	s	object:files.associations
+ctime	.vscode/settings.json	/^        "ctime": "cpp",$/;"	s	object:files.associations
+cwchar	.vscode/settings.json	/^        "cwchar": "cpp",$/;"	s	object:files.associations
+cwctype	.vscode/settings.json	/^        "cwctype": "cpp",$/;"	s	object:files.associations
+cwd	.vscode/launch.json	/^            "cwd": "${fileDirname}",$/;"	s	object:configurations.0
+cwd	.vscode/tasks.json	/^                "cwd": "${fileDirname}"$/;"	s	object:tasks.0.options
+data_	384.cpp	/^    std::vector<int> data_;$/;"	m	class:Solution	typeref:typename:std::vector<int>	file:
+db_substring	template/dp.cpp	/^void db_substring(const std::string &s) {$/;"	f	typeref:typename:void
+dbg	dbg.h	/^#define dbg(/;"	d
+dbg	dbg.h	/^namespace dbg {$/;"	n
+decimalToBinary	dbg.h	/^std::string decimalToBinary(T n) {$/;"	f	namespace:dbg	typeref:typename:std::string
+decodeString	394.cpp	/^string decodeString(const string &s) {$/;"	f	typeref:typename:string
+defines	.vscode/c_cpp_properties.json	/^            "defines": [$/;"	a	object:configurations.0
+deque	.vscode/settings.json	/^        "deque": "cpp",$/;"	s	object:files.associations
+description	.vscode/launch.json	/^                    "description": "为 gdb 启用整齐打印",$/;"	s	object:configurations.0.setupCommands.0
+detail	.vscode/tasks.json	/^            "detail": "调试器生成的任务。"$/;"	s	object:tasks.0
+detail	dbg.h	/^namespace detail {$/;"	n	namespace:dbg
+detail_detector	dbg.h	/^namespace detail_detector {$/;"	n	namespace:dbg
+detect_begin_t	dbg.h	/^using detect_begin_t = decltype(detail::begin(std::declval<T>()));$/;"	t	namespace:dbg::detail
+detect_end_t	dbg.h	/^using detect_end_t = decltype(detail::end(std::declval<T>()));$/;"	t	namespace:dbg::detail
+detect_size_t	dbg.h	/^using detect_size_t = decltype(detail::size(std::declval<T>()));$/;"	t	namespace:dbg::detail
+detector	dbg.h	/^struct detector {$/;"	s	namespace:dbg::detail_detector
+detector	dbg.h	/^struct detector<Default, void_t<Op<Args...>>, Op, Args...> {$/;"	s	namespace:dbg::detail_detector
+distanceK	863.cpp	/^vector<int> distanceK(TreeNode* root, TreeNode* target, int k) {$/;"	f	typeref:typename:vector<int>
+edge_t	1584.cpp	/^    typedef std::pair<int, int> edge_t;$/;"	t	function:minCostConnectPoints	typeref:typename:std::pair<int,int>	file:
+edges	743.cpp	/^std::unordered_map<int, std::unordered_map<int,int>> edges;$/;"	v	typeref:typename:std::unordered_map<int,std::unordered_map<int,int>>
+entityParser	1410.cpp	/^string entityParser(string text) {$/;"	f	typeref:typename:string
+environment	.vscode/launch.json	/^            "environment": [],$/;"	a	object:configurations.0
+exception	.vscode/settings.json	/^        "exception": "cpp",$/;"	s	object:files.associations
+expr_t	dbg.h	/^  using expr_t = const char*;$/;"	t	class:dbg::DebugOutput	typeref:typename:const char *
+externalConsole	.vscode/launch.json	/^            "externalConsole": false,$/;"	b	object:configurations.0
+fa	1584.cpp	/^std::vector<int> fa;$/;"	v	typeref:typename:std::vector<int>
+fa	547.cpp	/^std::vector<int> fa;$/;"	v	typeref:typename:std::vector<int>
+fa	template/dsu.cpp	/^std::vector<int> fa;$/;"	v	typeref:typename:std::vector<int>
+files.associations	.vscode/settings.json	/^    "files.associations": {$/;"	o
+find	1584.cpp	/^int find(int x) {$/;"	f	typeref:typename:int
+find	547.cpp	/^int find(int x) {$/;"	f	typeref:typename:int
+find	template/dsu.cpp	/^int find(int x) {$/;"	f	typeref:typename:int
+findCircleNum	547.cpp	/^int findCircleNum(vector<vector<int>>& isConnected) {$/;"	f	typeref:typename:int
+findDiagonalOrder	498.cpp	/^vector<int> findDiagonalOrder(vector<vector<int>>& mat) {$/;"	f	typeref:typename:vector<int>
+findGrand	684.cpp	/^int findGrand(const std::vector<int>& dsu, int x) {$/;"	f	typeref:typename:int
+findGrand	ms04.01.cpp	/^int findGrand(const std::vector<int>& dsu, int x) {$/;"	f	typeref:typename:int
+findKthLargest	215.cpp	/^int findKthLargest(vector<int>& nums, int k) {$/;"	f	typeref:typename:int
+findLongestWord	524.cpp	/^string findLongestWord(string s, vector<string>& dictionary) {$/;"	f	typeref:typename:string
+findMinFibonacciNumbers	1414.cpp	/^int findMinFibonacciNumbers(int k) {$/;"	f	typeref:typename:int
+findNthDigit	400.cpp	/^int findNthDigit(int n) {$/;"	f	typeref:typename:int
+findPeakElement	162.cpp	/^int findPeakElement(vector<int>& nums) {$/;"	f	typeref:typename:int
+findRedundantConnection	684.cpp	/^vector<int> findRedundantConnection(vector<vector<int>>& edges) {$/;"	f	typeref:typename:vector<int>
+findTheLongestSubstring	1371.cpp	/^int findTheLongestSubstring(string s) {$/;"	f	typeref:typename:int
+findWhetherExistsPath	ms04.01.cpp	/^bool findWhetherExistsPath(int n, vector<vector<int>>& graph, int start,$/;"	f	typeref:typename:bool
+flags	743.cpp	/^std::vector<int> flags;$/;"	v	typeref:typename:std::vector<int>
+fractionAddition	592.cpp	/^string fractionAddition(string expression) {$/;"	f	typeref:typename:string
+frequencySort	451.cpp	/^string frequencySort(const string &s) {$/;"	f	typeref:typename:string
+fstream	.vscode/settings.json	/^        "fstream": "cpp",$/;"	s	object:files.associations
+functional	.vscode/settings.json	/^        "functional": "cpp",$/;"	s	object:files.associations
+gardenNoAdj	1042.cpp	/^vector<int> gardenNoAdj(int n, vector<vector<int>>& paths) {$/;"	f	typeref:typename:vector<int>
+generateParenthesis	22.cpp	/^vector<string> generateParenthesis(int n) {$/;"	f	typeref:typename:vector<string>
+getFactors	1362.cpp	/^std::vector<int> getFactors() {}$/;"	f	typeref:typename:std::vector<int>
+getHint	299.cpp	/^string getHint(string secret, string guess) {$/;"	f	typeref:typename:string
+getPol	640.cpp	/^std::pair<int, int> getPol(const std::string& pol) {$/;"	f	typeref:typename:std::pair<int,int>
+get_divisor_sum	1390.cpp	/^int get_divisor_sum(int val) {}$/;"	f	typeref:typename:int
+get_max	1465.cpp	/^int get_max(int v, std::vector<int>& array) {$/;"	f	typeref:typename:int
+get_type_name	dbg.h	/^inline std::string get_type_name(type_tag<long>) {$/;"	f	namespace:dbg	typeref:typename:std::string
+get_type_name	dbg.h	/^inline std::string get_type_name(type_tag<print_formatted<T>>) {$/;"	f	namespace:dbg	typeref:typename:std::string
+get_type_name	dbg.h	/^inline std::string get_type_name(type_tag<short>) {$/;"	f	namespace:dbg	typeref:typename:std::string
+get_type_name	dbg.h	/^inline std::string get_type_name(type_tag<std::string>) {$/;"	f	namespace:dbg	typeref:typename:std::string
+get_type_name	dbg.h	/^inline std::string get_type_name(type_tag<unsigned long>) {$/;"	f	namespace:dbg	typeref:typename:std::string
+get_type_name	dbg.h	/^inline std::string get_type_name(type_tag<unsigned short>) {$/;"	f	namespace:dbg	typeref:typename:std::string
+get_type_name	dbg.h	/^std::string get_type_name(type_tag<T>) {$/;"	f	namespace:dbg	typeref:typename:std::string
+get_type_name	dbg.h	/^std::string get_type_name(type_tag<std::pair<T1, T2>>) {$/;"	f	namespace:dbg	typeref:typename:std::string
+get_type_name	dbg.h	/^std::string get_type_name(type_tag<std::tuple<T...>>) {$/;"	f	namespace:dbg	typeref:typename:std::string
+get_type_name	dbg.h	/^std::string get_type_name(type_tag<std::vector<T, std::allocator<T>>>) {$/;"	f	namespace:dbg	typeref:typename:std::string
+grayCode	89.cpp	/^vector<int> grayCode(int n) {$/;"	f	typeref:typename:vector<int>
+group	.vscode/tasks.json	/^            "group": {$/;"	o	object:tasks.0
+groupThePeople	1282.cpp	/^vector<vector<int>> groupThePeople(vector<int>& groupSizes) {$/;"	f	typeref:typename:vector<vector<int>>
+hasValidPath	1391.cpp	/^bool hasValidPath(vector<vector<int>>& grid) {$/;"	f	typeref:typename:bool
+has_ostream_operator	dbg.h	/^struct has_ostream_operator : is_detected<ostream_operator_t, T> {};$/;"	s	namespace:dbg::detail
+hash_triple	15.cpp	/^uint64_t hash_triple(int v1, int v2, int v3) {$/;"	f	typeref:typename:uint64_t
+hex	dbg.h	/^print_formatted<T> hex(T value) {$/;"	f	namespace:dbg	typeref:typename:print_formatted<T>
+highestPeak	1765.cpp	/^vector<vector<int>> highestPeak(vector<vector<int>>& isWater) {$/;"	f	typeref:typename:vector<vector<int>>
+identity	dbg.h	/^T&& identity(T&& t) {$/;"	f	namespace:dbg	typeref:typename:T &&
+identity	dbg.h	/^auto identity(T&&, U&&... u) -> last_t<U...> {$/;"	f	namespace:dbg	typeref:typename:last_t<U...>
+ignoreFailures	.vscode/launch.json	/^                    "ignoreFailures": true$/;"	b	object:configurations.0.setupCommands.0
+includePath	.vscode/c_cpp_properties.json	/^            "includePath": [$/;"	a	object:configurations.0
+init	template/dsu.cpp	/^void init() {$/;"	f	typeref:typename:void
+initdsu	1584.cpp	/^void initdsu() {$/;"	f	typeref:typename:void
+initializer_list	.vscode/settings.json	/^        "initializer_list": "cpp",$/;"	s	object:files.associations
+inner	dbg.h	/^  T inner;$/;"	m	struct:dbg::print_formatted	typeref:typename:T
+intToRoman	12.cpp	/^string intToRoman(int num) {$/;"	f	typeref:typename:string
+integerBreak	343.cpp	/^int integerBreak(int n) {$/;"	f	typeref:typename:int
+integerReplacement	397.cpp	/^int integerReplacement(int n) {$/;"	f	typeref:typename:int
+intelliSenseMode	.vscode/c_cpp_properties.json	/^            "intelliSenseMode": "windows-msvc-x64"$/;"	s	object:configurations.0
+iomanip	.vscode/settings.json	/^        "iomanip": "cpp",$/;"	s	object:files.associations
+ios	.vscode/settings.json	/^        "ios": "cpp",$/;"	s	object:files.associations
+iosfwd	.vscode/settings.json	/^        "iosfwd": "cpp",$/;"	s	object:files.associations
+iostream	.vscode/settings.json	/^        "iostream": "cpp",$/;"	s	object:files.associations
+isColorizedOutputEnabled	dbg.h	/^inline bool isColorizedOutputEnabled() {$/;"	f	namespace:dbg	typeref:typename:bool
+isDefault	.vscode/tasks.json	/^                "isDefault": true$/;"	b	object:tasks.0.group
+isNumber	8.cpp	/^bool isNumber(char c) { return c >= '0' && c <= '9'; }$/;"	f	typeref:typename:bool
+isPathCrossing	1496.cpp	/^bool isPathCrossing(string path) { $/;"	f	typeref:typename:bool
+isPossible	653.cpp	/^bool isPossible(vector<int>& nums) {$/;"	f	typeref:typename:bool
+isSelfDivice	728.cpp	/^bool isSelfDivice(int v) {$/;"	f	typeref:typename:bool
+isValid	1371.cpp	/^bool isValid(char c) {$/;"	f	typeref:typename:bool
+isValidBST	98.cpp	/^bool isValidBST(TreeNode *root) {$/;"	f	typeref:typename:bool
+isValidSudoku	36.cpp	/^bool isValidSudoku(vector<vector<char>>& board) {$/;"	f	typeref:typename:bool
+is_container	dbg.h	/^struct is_container {$/;"	s	namespace:dbg::detail
+is_detected	dbg.h	/^using is_detected = typename detail_detector::$/;"	t	namespace:dbg	typeref:typename:detail_detector::detector<detail_detector::nonesuch,void,Op,Args...>::value_t
+is_number	394.cpp	/^bool is_number(char c) { return c >= '0' && c <= '9'; }$/;"	f	typeref:typename:bool
+is_similar	433.cpp	/^bool is_similar(const std::string& s1, const std::string& s2) {$/;"	f	typeref:typename:bool
+is_subsquence	524.cpp	/^bool is_subsquence(const string& s, const string& r) {$/;"	f	typeref:typename:bool
+is_vowel	2063.cpp	/^int is_vowel(char c) {$/;"	f	typeref:typename:int
+islandPerimeter	463.cpp	/^int islandPerimeter(vector<vector<int>>& grid) {$/;"	f	typeref:typename:int
+istream	.vscode/settings.json	/^        "istream": "cpp",$/;"	s	object:files.associations
+iterator	.vscode/settings.json	/^        "iterator": "cpp",$/;"	s	object:files.associations
+jump	45.cpp	/^int jump(vector<int>& nums) {$/;"	f	typeref:typename:int
+kind	.vscode/tasks.json	/^                "kind": "build",$/;"	s	object:tasks.0.group
+label	.vscode/tasks.json	/^            "label": "C\/C++: g++.exe 生成活动文件",$/;"	s	object:tasks.0
+largestNumber	179.cpp	/^string largestNumber(vector<int>& nums) {$/;"	f	typeref:typename:string
+largestTimeFromDigits	949.cpp	/^string largestTimeFromDigits(vector<int>& arr) {$/;"	f	typeref:typename:string
+last	dbg.h	/^struct last {$/;"	s	namespace:dbg
+last	dbg.h	/^struct last<T> {$/;"	s	namespace:dbg
+last_t	dbg.h	/^using last_t = typename last<T...>::type;$/;"	t	namespace:dbg	typeref:typename:last<T...>::type
+leastBricks	554.cpp	/^int leastBricks(vector<vector<int>>& wall) {$/;"	f	typeref:typename:int
+left	ds.h	/^    TreeNode *left;$/;"	m	struct:TreeNode	typeref:typename:TreeNode *
+letterCombinations	17.cpp	/^ vector<string> letterCombinations(string digits) {$/;"	f	typeref:typename:vector<string>
+limits	.vscode/settings.json	/^        "limits": "cpp",$/;"	s	object:files.associations
+list	.vscode/settings.json	/^        "list": "cpp",$/;"	s	object:files.associations
+locale	.vscode/settings.json	/^        "locale": "cpp",$/;"	s	object:files.associations
+longestCommonSubsequence	1143.cpp	/^int longestCommonSubsequence(const string &text1, const string &text2) {$/;"	f	typeref:typename:int
+longestConsecutive	128.cpp	/^int longestConsecutive(vector<int>& nums) {$/;"	f	typeref:typename:int
+longestPalindrome	5.cpp	/^string longestPalindrome(string s) {$/;"	f	typeref:typename:string
+longestSubarray	1493.cpp	/^int longestSubarray(vector<int>& nums) {$/;"	f	typeref:typename:int
+m_location	dbg.h	/^  std::string m_location;$/;"	m	class:dbg::DebugOutput	typeref:typename:std::string
+m_use_colorized_output	dbg.h	/^  const bool m_use_colorized_output;$/;"	m	class:dbg::DebugOutput	typeref:typename:const bool
+main	1042.cpp	/^int main() {$/;"	f	typeref:typename:int
+main	1143.cpp	/^int main(int argc, char const *argv[]) { return 0; }/;"	f	typeref:typename:int
+main	1155.cpp	/^int main(int argc, char const *argv[]) {$/;"	f	typeref:typename:int
+main	1190.cpp	/^int main() {$/;"	f	typeref:typename:int
+main	12.cpp	/^int main(int argc, char const *argv[]) {$/;"	f	typeref:typename:int
+main	1207.cpp	/^int main(int argc, char const* argv[]) {$/;"	f	typeref:typename:int
+main	1248.cpp	/^int main() {$/;"	f	typeref:typename:int
+main	128.cpp	/^int main(int argc, char const* argv[]) {$/;"	f	typeref:typename:int
+main	1282.cpp	/^int main(int argc, char const* argv[]) {$/;"	f	typeref:typename:int
+main	1319.cpp	/^int main(int argc, char const* argv[]) {$/;"	f	typeref:typename:int
+main	1323.cpp	/^int main(int argc, char const *argv[]) {$/;"	f	typeref:typename:int
+main	1344.cpp	/^int main(int argc, char const *argv[]) { return 0; }$/;"	f	typeref:typename:int
+main	1371.cpp	/^int main() {$/;"	f	typeref:typename:int
+main	1390.cpp	/^int main(int argc, char const* argv[]) { return 0; }$/;"	f	typeref:typename:int
+main	1410.cpp	/^int main(int argc, char const *argv[]) {$/;"	f	typeref:typename:int
+main	1414.cpp	/^int main(int argc, char const *argv[]) {$/;"	f	typeref:typename:int
+main	1419.cpp	/^int main(int argc, char const *argv[]) {$/;"	f	typeref:typename:int
+main	1456.cpp	/^int main(int argc, char const *argv[]) {$/;"	f	typeref:typename:int
+main	1493.cpp	/^int main(int argc, char const* argv[]) {$/;"	f	typeref:typename:int
+main	1497.cpp	/^int main() {$/;"	f	typeref:typename:int
+main	15.cpp	/^int main(int argc, char const* argv[]) {$/;"	f	typeref:typename:int
+main	151.cpp	/^int main(int argc, char const *argv[]) {$/;"	f	typeref:typename:int
+main	152.cpp	/^int main(int argc, char const* argv[]) {$/;"	f	typeref:typename:int
+main	1590.cpp	/^int main(int argc, char const* argv[]) {$/;"	f	typeref:typename:int
+main	1594.cpp	/^int main(int argc, char const* argv[]) { return 0; }$/;"	f	typeref:typename:int
+main	162.cpp	/^int main(int argc, char const* argv[]) {$/;"	f	typeref:typename:int
+main	1679.cpp	/^int main(int argc, char const* argv[]) {$/;"	f	typeref:typename:int
+main	17.cpp	/^int main(int argc, char const *argv[])$/;"	f	typeref:typename:int
+main	1711.cpp	/^int main(int argc, char const* argv[]) {$/;"	f	typeref:typename:int
+main	1765.cpp	/^int main(int argc, char const* argv[]) {$/;"	f	typeref:typename:int
+main	179.cpp	/^int main(int argc, char const* argv[]) {$/;"	f	typeref:typename:int
+main	189.cpp	/^int main(int argc, char const* argv[]) {$/;"	f	typeref:typename:int
+main	1911.cpp	/^int main(int argc, char const* argv[]) { return 0; }$/;"	f	typeref:typename:int
+main	1926.cpp	/^int main(int argc, char const* argv[]) {$/;"	f	typeref:typename:int
+main	1981.cpp	/^int main(int argc, char const* argv[]) { return 0; }$/;"	f	typeref:typename:int
+main	200.cpp	/^int main(int argc, char const* argv[]) {$/;"	f	typeref:typename:int
+main	2023.cpp	/^int main(int argc, char const* argv[]) { return 0; }$/;"	f	typeref:typename:int
+main	204.cpp	/^int main(int argc, char const *argv[]) {$/;"	f	typeref:typename:int
+main	2063.cpp	/^int main(int argc, char const *argv[]) {$/;"	f	typeref:typename:int
+main	2165.cpp	/^int main() {$/;"	f	typeref:typename:int
+main	22.cpp	/^int main(int argc, char const *argv[])$/;"	f	typeref:typename:int
+main	224.cpp	/^int main(int argc, char const* argv[]) { return 0; }$/;"	f	typeref:typename:int
+main	229.cpp	/^int main(int argc, char const* argv[]) { return 0; }$/;"	f	typeref:typename:int
+main	230.cpp	/^int main(int argc, char const *argv[])$/;"	f	typeref:typename:int
+main	238.cpp	/^int main(int argc, char const* argv[]) {$/;"	f	typeref:typename:int
+main	24.cpp	/^int main(int argc, char const *argv[]) { return 0; }$/;"	f	typeref:typename:int
+main	260.cpp	/^int main(int argc, char const* argv[]) {$/;"	f	typeref:typename:int
+main	299.cpp	/^int main(int argc, char const *argv[]) { $/;"	f	typeref:typename:int
+main	318.cpp	/^int main(int argc, char const* argv[]) { return 0; }$/;"	f	typeref:typename:int
+main	33.cpp	/^int main() {$/;"	f	typeref:typename:int
+main	34.cpp	/^int main(int argc, char const *argv[])$/;"	f	typeref:typename:int
+main	343.cpp	/^int main(int argc, char const *argv[]) {$/;"	f	typeref:typename:int
+main	347.cpp	/^int main() {$/;"	f	typeref:typename:int
+main	36.cpp	/^ int main(int argc, char const *argv[])$/;"	f	typeref:typename:int
+main	384.cpp	/^int main(int argc, char const* argv[]) { return 0; }$/;"	f	typeref:typename:int
+main	394.cpp	/^int main(int argc, char const *argv[]) {$/;"	f	typeref:typename:int
+main	397.cpp	/^int main(int argc, char const *argv[]) {$/;"	f	typeref:typename:int
+main	398.cpp	/^int main(int argc, char const* argv[]) { return 0; }$/;"	f	typeref:typename:int
+main	400.cpp	/^int main(int argc, char const *argv[]) {$/;"	f	typeref:typename:int
+main	423.cpp	/^int main(int argc, char const *argv[]) {$/;"	f	typeref:typename:int
+main	43.cpp	/^int main(int argc, char const *argv[])$/;"	f	typeref:typename:int
+main	45.cpp	/^int main(int argc, char const* argv[]) {$/;"	f	typeref:typename:int
+main	451.cpp	/^int main(int argc, char const *argv[]) {$/;"	f	typeref:typename:int
+main	46.cpp	/^int main(int argc, char const *argv[])$/;"	f	typeref:typename:int
+main	463.cpp	/^int main(int argc, char const* argv[]) { return 0; }$/;"	f	typeref:typename:int
+main	5.cpp	/^int main() {$/;"	f	typeref:typename:int
+main	524.cpp	/^int main(int argc, char const* argv[]) {$/;"	f	typeref:typename:int
+main	55.cpp	/^int main(int argc, char const* argv[]) {$/;"	f	typeref:typename:int
+main	56.cpp	/^int main(int argc, char const* argv[]) { return 0; }$/;"	f	typeref:typename:int
+main	560.cpp	/^int main() {$/;"	f	typeref:typename:int
+main	567.cpp	/^int main(int argc, char const *argv[]) {$/;"	f	typeref:typename:int
+main	611.cpp	/^int main(int argc, char const* argv[]) {$/;"	f	typeref:typename:int
+main	62.cpp	/^int main(int argc, char const *argv[]) { return 0; }$/;"	f	typeref:typename:int
+main	64.cpp	/^int main(int argc, char const* argv[]) {$/;"	f	typeref:typename:int
+main	640.cpp	/^int main(int argc, char const* argv[]) {$/;"	f	typeref:typename:int
+main	647.cpp	/^int main(int argc, char const *argv[]) {$/;"	f	typeref:typename:int
+main	653.cpp	/^int main(int argc, char const* argv[]) {$/;"	f	typeref:typename:int
+main	670.cpp	/^int main(int argc, char const *argv[]) {$/;"	f	typeref:typename:int
+main	692.cpp	/^int main(int argc, char const* argv[]) {$/;"	f	typeref:typename:int
+main	71.cpp	/^int main(int argc, char const *argv[]) {$/;"	f	typeref:typename:int
+main	728.cpp	/^int main(int argc, char const *argv[]) {$/;"	f	typeref:typename:int
+main	73.cpp	/^int main(int argc, char const* argv[]) { return 0; }$/;"	f	typeref:typename:int
+main	743.cpp	/^int main(){$/;"	f	typeref:typename:int
+main	746.cpp	/^int main() {$/;"	f	typeref:typename:int
+main	769.cpp	/^int main(int argc, char const* argv[]) {$/;"	f	typeref:typename:int
+main	8.cpp	/^int main(int argc, char const *argv[]) {$/;"	f	typeref:typename:int
+main	80.cpp	/^int main(int argc, char const* argv[]) {$/;"	f	typeref:typename:int
+main	881.cpp	/^int main() {$/;"	f	typeref:typename:int
+main	89.cpp	/^int main(int argc, char const *argv[]) {$/;"	f	typeref:typename:int
+main	91.cpp	/^int main(int argc, char const *argv[]) {$/;"	f	typeref:typename:int
+main	93.cpp	/^int main(int argc, char const *argv[]) {$/;"	f	typeref:typename:int
+main	949.cpp	/^int main() {$/;"	f	typeref:typename:int
+main	959.cpp	/^int main(int argc, char const* argv[]) { return 0; }$/;"	f	typeref:typename:int
+main	98.cpp	/^int main(int argc, char const *argv[]) {$/;"	f	typeref:typename:int
+main	a.cpp	/^int main(int argc, char const *argv[]) {$/;"	f	typeref:typename:int
+main	jz2.92.cpp	/^int main(int argc, char const* argv[]) { return 0; }$/;"	f	typeref:typename:int
+main	ms.01.05.cpp	/^int main(int argc, char const *argv[]) {$/;"	f	typeref:typename:int
+main	ms16.06.cpp	/^int main(int argc, char const* argv[]) {$/;"	f	typeref:typename:int
+main	offer32.III.cpp	/^int main(int argc, char const *argv[]) { return 0; }$/;"	f	typeref:typename:int
+main	offerII.009.cpp	/^int main(int argc, char const* argv[]) { return 0; }$/;"	f	typeref:typename:int
+main	offerII.45.cpp	/^int main(int argc, char const* argv[]) {$/;"	f	typeref:typename:int
+majorityElement	229.cpp	/^vector<int> majorityElement(vector<int>& nums) {$/;"	f	typeref:typename:vector<int>
+makeConnected	1319.cpp	/^int makeConnected(int n, vector<vector<int>>& connections) {$/;"	f	typeref:typename:int
+map	.vscode/settings.json	/^        "map": "cpp",$/;"	s	object:files.associations
+map_	398.cpp	/^    unordered_map<int, vector<int, int>> map_;$/;"	m	class:Solution	typeref:typename:unordered_map<int,vector<int,int>>	file:
+maxAlternatingSum	1911.cpp	/^long long maxAlternatingSum(vector<int>& nums) {$/;"	f	typeref:typename:long long
+maxArea	1465.cpp	/^int maxArea(int h, int w, vector<int>& horizontalCuts,$/;"	f	typeref:typename:int
+maxChunksToSorted	769.cpp	/^int maxChunksToSorted(vector<int>& arr) {$/;"	f	typeref:typename:int
+maxOperations	1679.cpp	/^int maxOperations(vector<int>& nums, int k) {$/;"	f	typeref:typename:int
+maxProduct	152.cpp	/^int maxProduct(vector<int>& nums) {$/;"	f	typeref:typename:int
+maxProduct	318.cpp	/^int maxProduct(vector<string>& words) {$/;"	f	typeref:typename:int
+maxProductPath	1594.cpp	/^int maxProductPath(vector<vector<int>>& grid) {$/;"	f	typeref:typename:int
+maxValue	offer47.cpp	/^int maxValue(vector<vector<int>>& grid) {$/;"	f	typeref:typename:int
+maxVowels	1456.cpp	/^int maxVowels(const string &s, int k) {$/;"	f	typeref:typename:int
+maxWidthOfVerticalArea	1637.cpp	/^int maxWidthOfVerticalArea(vector<vector<int>> &points) {$/;"	f	typeref:typename:int
+maximum69Number	1323.cpp	/^int maximum69Number(int num) {$/;"	f	typeref:typename:int
+maximumSwap	670.cpp	/^int maximumSwap(int num) {$/;"	f	typeref:typename:int
+memory	.vscode/settings.json	/^        "memory": "cpp",$/;"	s	object:files.associations
+merge	56.cpp	/^vector<vector<int>> merge(vector<vector<int>>& intervals) {$/;"	f	typeref:typename:vector<vector<int>>
+merge	ms04.01.cpp	/^void merge(std::vector<int>& dsu, int x, int y) {$/;"	f	typeref:typename:void
+miDebuggerPath	.vscode/launch.json	/^            "miDebuggerPath": "C:\\\\TDM-GCC-64\\\\bin\\\\gdb.exe",$/;"	s	object:configurations.0
+min	397.cpp	/^int min(int a, int b) { return a > b ? b : a; }$/;"	f	typeref:typename:int
+min	64.cpp	/^int min(int x, int y) { return x < y ? x : y; }$/;"	f	typeref:typename:int
+minCostClimbingStairs	746.cpp	/^int minCostClimbingStairs(vector<int>& cost) {$/;"	f	typeref:typename:int
+minCostConnectPoints	1584.cpp	/^int minCostConnectPoints(vector<vector<int>>& points) {$/;"	f	typeref:typename:int
+minFlipsMonoIncr	jz2.92.cpp	/^int minFlipsMonoIncr(const string& s) {$/;"	f	typeref:typename:int
+minMutation	433.cpp	/^int minMutation(string start, string end, vector<string>& bank) {$/;"	f	typeref:typename:int
+minNumber	offerII.45.cpp	/^string minNumber(const vector<int>& nums) {$/;"	f	typeref:typename:string
+minNumberOfFrogs	1419.cpp	/^int minNumberOfFrogs(const string &croakOfFrogs) {$/;"	f	typeref:typename:int
+minPathSum	64.cpp	/^int minPathSum(vector<vector<int>>& grid) {$/;"	f	typeref:typename:int
+minSubarray	1590.cpp	/^int minSubarray(vector<int>& nums, int p) {$/;"	f	typeref:typename:int
+minTime	397.cpp	/^int minTime(int n, std::unordered_map<int, int> &cache) {$/;"	f	typeref:typename:int
+minimizeTheDifference	1981.cpp	/^int minimizeTheDifference(vector<vector<int>>& mat, int target) {$/;"	f	typeref:typename:int
+minimumEffortPath	1631.cpp	/^int minimumEffortPath(vector<vector<int>>& heights) {$/;"	f	typeref:typename:int
+multiply	43.cpp	/^string multiply(string num1, string num2) {$/;"	f	typeref:typename:string
+myAtoi	8.cpp	/^int myAtoi(string s) {$/;"	f	typeref:typename:int
+name	.vscode/c_cpp_properties.json	/^            "name": "Win32",$/;"	s	object:configurations.0
+name	.vscode/launch.json	/^            "name": "g++.exe - 生成和调试活动文件",$/;"	s	object:configurations.0
+nearestExit	1926.cpp	/^int nearestExit(const vector<vector<char>>& maze, const vector<int>& entrance) {$/;"	f	typeref:typename:int
+networkDelayTime	743.cpp	/^int networkDelayTime(vector<vector<int>>& times, int n, int k) {$/;"	f	typeref:typename:int
+new	.vscode/settings.json	/^        "new": "cpp",$/;"	s	object:files.associations
+next	24.cpp	/^    ListNode *next;$/;"	m	struct:ListNode	typeref:typename:ListNode *	file:
+nonesuch	dbg.h	/^struct nonesuch {$/;"	s	namespace:dbg::detail_detector
+numDecodings	91.cpp	/^int numDecodings(const string &s) {$/;"	f	typeref:typename:int
+numIslands	200.cpp	/^int numIslands(vector<vector<char>>& grid) {$/;"	f	typeref:typename:int
+numMatchingSubseq	792.cpp	/^int numMatchingSubseq(const string& s, vector<string>& words) {}/;"	f	typeref:typename:int
+numOfPairs	2023.cpp	/^int numOfPairs(vector<string>& nums, string target) {$/;"	f	typeref:typename:int
+numRescueBoats	881.cpp	/^int numRescueBoats(vector<int>& people, int limit) {$/;"	f	typeref:typename:int
+numRollsToTarget	1155.cpp	/^int numRollsToTarget(int d, int f, int target) {$/;"	f	typeref:typename:int
+numSubarrayProductLessThanK	offerII.009.cpp	/^int numSubarrayProductLessThanK(vector<int>& nums, int k) {}$/;"	f	typeref:typename:int
+numberOfSubarrays	1248.cpp	/^int numberOfSubarrays(vector<int>& nums, int k) {$/;"	f	typeref:typename:int
+numbers	.vscode/settings.json	/^        "numbers": "cpp",$/;"	s	object:files.associations
+numeric	.vscode/settings.json	/^        "numeric": "cpp",$/;"	s	object:files.associations
+oct	dbg.h	/^print_formatted<T> oct(T value) {$/;"	f	namespace:dbg	typeref:typename:print_formatted<T>
+oneEditAway	ms.01.05.cpp	/^bool oneEditAway(string first, string second) {$/;"	f	typeref:typename:bool
+operator T	dbg.h	/^  operator T() const { return inner; }$/;"	f	struct:dbg::print_formatted
+optional	.vscode/settings.json	/^        "optional": "cpp",$/;"	s	object:files.associations
+options	.vscode/tasks.json	/^            "options": {$/;"	o	object:tasks.0
+originalDigits	423.cpp	/^string originalDigits(const string &s) {$/;"	f	typeref:typename:string
+ostream	.vscode/settings.json	/^        "ostream": "cpp",$/;"	s	object:files.associations
+ostream_operator_t	dbg.h	/^using ostream_operator_t =$/;"	t	namespace:dbg::detail
+permute2	46.cpp	/^vector<vector<int>> permute2(vector<int>& nums) {$/;"	f	typeref:typename:vector<vector<int>>
+pick	398.cpp	/^    int pick(int target) {$/;"	f	class:Solution	typeref:typename:int	file:
+point_t	200.cpp	/^typedef std::pair<char, char> point_t;$/;"	t	typeref:typename:std::pair<char,char>	file:
+preLaunchTask	.vscode/launch.json	/^            "preLaunchTask": "C\/C++: g++.exe 生成活动文件"$/;"	s	object:configurations.0
+prefix	dbg.h	/^  const char* prefix() const {$/;"	f	struct:dbg::print_formatted	typeref:typename:const char *
+pretty_function	dbg.h	/^namespace pretty_function {$/;"	n	namespace:dbg
+pretty_print	dbg.h	/^inline bool pretty_print(std::ostream& stream, P* const& value) {$/;"	f	namespace:dbg	typeref:typename:bool
+pretty_print	dbg.h	/^inline bool pretty_print(std::ostream& stream, const bool& value) {$/;"	f	namespace:dbg	typeref:typename:bool
+pretty_print	dbg.h	/^inline bool pretty_print(std::ostream& stream, const char (&value)[N]) {$/;"	f	namespace:dbg	typeref:typename:bool
+pretty_print	dbg.h	/^inline bool pretty_print(std::ostream& stream, const char& value) {$/;"	f	namespace:dbg	typeref:typename:bool
+pretty_print	dbg.h	/^inline bool pretty_print(std::ostream& stream, const char* const& value) {$/;"	f	namespace:dbg	typeref:typename:bool
+pretty_print	dbg.h	/^inline bool pretty_print(std::ostream& stream, const print_type<T>&) {$/;"	f	namespace:dbg	typeref:typename:bool
+pretty_print	dbg.h	/^inline bool pretty_print(std::ostream& stream, const std::optional<T>& value) {$/;"	f	namespace:dbg	typeref:typename:bool
+pretty_print	dbg.h	/^inline bool pretty_print(std::ostream& stream, const std::pair<T1, T2>& value) {$/;"	f	namespace:dbg	typeref:typename:bool
+pretty_print	dbg.h	/^inline bool pretty_print(std::ostream& stream, const std::string& value) {$/;"	f	namespace:dbg	typeref:typename:bool
+pretty_print	dbg.h	/^inline bool pretty_print(std::ostream& stream, const std::string_view& value) {$/;"	f	namespace:dbg	typeref:typename:bool
+pretty_print	dbg.h	/^inline bool pretty_print(std::ostream& stream, const std::tuple<>&) {$/;"	f	namespace:dbg	typeref:typename:bool
+pretty_print	dbg.h	/^inline bool pretty_print(std::ostream& stream, const std::tuple<Ts...>& value) {$/;"	f	namespace:dbg	typeref:typename:bool
+pretty_print	dbg.h	/^inline bool pretty_print(std::ostream& stream, const time&) {$/;"	f	namespace:dbg	typeref:typename:bool
+pretty_print	dbg.h	/^inline bool pretty_print(std::ostream& stream, std::shared_ptr<T>& value) {$/;"	f	namespace:dbg	typeref:typename:bool
+pretty_print	dbg.h	/^inline bool pretty_print(std::ostream& stream,$/;"	f	namespace:dbg	typeref:typename:bool
+pretty_print	dbg.h	/^inline void pretty_print(std::ostream& stream, const T& value, std::true_type) {$/;"	f	namespace:dbg	typeref:typename:void
+pretty_print	dbg.h	/^inline void pretty_print(std::ostream&, const T&, std::false_type) {$/;"	f	namespace:dbg	typeref:typename:void
+pretty_print	dbg.h	/^pretty_print(std::ostream& stream, Enum const& value) {$/;"	f	namespace:dbg	typeref:typename:std::enable_if<std::is_enum<Enum>::value,bool>::type
+pretty_print	dbg.h	/^pretty_print(std::ostream& stream, const Container& value) {$/;"	f	namespace:dbg	typeref:typename:std::enable_if<detail::is_container<const Container &>::value,bool>::type
+pretty_print	dbg.h	/^pretty_print(std::ostream& stream, const T& value) {$/;"	f	namespace:dbg	typeref:typename:std::enable_if<!detail::is_container<const T &>::value &&!std::is_enum<T>::value,bool>::type
+pretty_print_tuple	dbg.h	/^struct pretty_print_tuple {$/;"	s	namespace:dbg
+pretty_print_tuple	dbg.h	/^struct pretty_print_tuple<0> {$/;"	s	namespace:dbg
+print	dbg.h	/^  auto print(std::initializer_list<expr_t> exprs,$/;"	f	class:dbg::DebugOutput	typeref:typename:last_t<T...>
+print	dbg.h	/^  static void print(std::ostream& stream, const std::tuple<Ts...>& tuple) {$/;"	f	struct:dbg::pretty_print_tuple	typeref:typename:void
+printBT	ds.h	/^void printBT(const std::string &prefix, const TreeNode *node, bool isLeft) {$/;"	f	typeref:typename:void
+print_formatted	dbg.h	/^  print_formatted(T value, int numeric_base)$/;"	f	struct:dbg::print_formatted
+print_formatted	dbg.h	/^struct print_formatted {$/;"	s	namespace:dbg
+print_impl	dbg.h	/^  T&& print_impl(const expr_t* expr, const std::string* type, T&& value) {$/;"	f	class:dbg::DebugOutput	typeref:typename:T &&
+print_impl	dbg.h	/^  auto print_impl(const expr_t* exprs,$/;"	f	class:dbg::DebugOutput	typeref:typename:last_t<T,U...>
+print_type	dbg.h	/^struct print_type {};$/;"	s	namespace:dbg
+problemMatcher	.vscode/tasks.json	/^            "problemMatcher": [$/;"	a	object:tasks.0
+productExceptSelf	238.cpp	/^vector<int> productExceptSelf(vector<int>& nums) {$/;"	f	typeref:typename:vector<int>
+program	.vscode/launch.json	/^            "program": "${fileDirname}\\\\${fileBasenameNoExtension}.exe",$/;"	s	object:configurations.0
+queue	.vscode/settings.json	/^        "queue": "cpp",$/;"	s	object:files.associations
+random	.vscode/settings.json	/^        "random": "cpp",$/;"	s	object:files.associations
+ratio	.vscode/settings.json	/^        "ratio": "cpp",$/;"	s	object:files.associations
+regionsBySlashes	959.cpp	/^int regionsBySlashes(vector<string>& grid) {$/;"	f	typeref:typename:int
+removeDuplicateLetters	316.cpp	/^string removeDuplicateLetters(const string &s) {$/;"	f	typeref:typename:string
+removeDuplicates	80.cpp	/^int removeDuplicates(vector<int>& nums) {$/;"	f	typeref:typename:int
+request	.vscode/launch.json	/^            "request": "launch",$/;"	s	object:configurations.0
+reset	384.cpp	/^    vector<int> reset() { return this->data_; }$/;"	f	class:Solution	typeref:typename:vector<int>	file:
+restoreIpAddresses	93.cpp	/^vector<string> restoreIpAddresses(string s) {$/;"	f	typeref:typename:vector<string>
+reverseParentheses	1190.cpp	/^string reverseParentheses(string s) {$/;"	f	typeref:typename:string
+reverseWords	151.cpp	/^string reverseWords(string s) {$/;"	f	typeref:typename:string
+reverse_between	189.cpp	/^void reverse_between(vector<int>& array, int begin, int end) {$/;"	f	typeref:typename:void
+right	ds.h	/^    TreeNode *right;$/;"	m	struct:TreeNode	typeref:typename:TreeNode *
+rotate	189.cpp	/^void rotate(vector<int>& nums, int k) {$/;"	f	typeref:typename:void
+sampleStats	1093.cpp	/^vector<double> sampleStats(vector<int>& count) {$/;"	f	typeref:typename:vector<double>
+searchRange	34.cpp	/^vector<int> searchRange(vector<int>& nums, int target) {$/;"	f	typeref:typename:vector<int>
+search_addr	93.cpp	/^void search_addr(std::string &str, int begin_index, int last,$/;"	f	typeref:typename:void
+selfDividingNumbers	728.cpp	/^vector<int> selfDividingNumbers(int left, int right) {$/;"	f	typeref:typename:vector<int>
+set	.vscode/settings.json	/^        "set": "cpp",$/;"	s	object:files.associations
+setZeroes	73.cpp	/^void setZeroes(vector<vector<int>>& matrix) {$/;"	f	typeref:typename:void
+setupCommands	.vscode/launch.json	/^            "setupCommands": [$/;"	a	object:configurations.0
+shuffle	384.cpp	/^    vector<int> shuffle() {$/;"	f	class:Solution	typeref:typename:vector<int>	file:
+simple_array_dp	template/dp.cpp	/^void simple_array_dp() {$/;"	f	typeref:typename:void
+simplifyPath	71.cpp	/^string simplifyPath(string path) {$/;"	f	typeref:typename:string
+singleNumber	260.cpp	/^vector<int> singleNumber(vector<int>& nums) {$/;"	f	typeref:typename:vector<int>
+singleNumber2	260.cpp	/^vector<int> singleNumber2(vector<int>& nums) {$/;"	f	typeref:typename:vector<int>
+size	dbg.h	/^constexpr auto size(const T& c) -> decltype(c.size()) {$/;"	f	namespace:dbg::detail::__anon0f480c280111	typeref:typename:decltype(c.size ())
+size	dbg.h	/^constexpr std::size_t size(const T (&)[N]) {$/;"	f	namespace:dbg::detail::__anon0f480c280111	typeref:typename:std::size_t
+smallestDifference2	ms16.06.cpp	/^int smallestDifference2(vector<int>& a, vector<int>& b) {$/;"	f	typeref:typename:int
+smallestNumber	2165.cpp	/^long long smallestNumber(long long num) {$/;"	f	typeref:typename:long long
+solveEquation	640.cpp	/^string solveEquation(const string& equation) {$/;"	f	typeref:typename:string
+sort	1391.cpp	/^void sort() {}$/;"	f	typeref:typename:void
+sstream	.vscode/settings.json	/^        "sstream": "cpp",$/;"	s	object:files.associations
+stack	.vscode/settings.json	/^        "stack": "cpp",$/;"	s	object:files.associations
+stdexcept	.vscode/settings.json	/^        "stdexcept": "cpp",$/;"	s	object:files.associations
+stopAtEntry	.vscode/launch.json	/^            "stopAtEntry": false,$/;"	b	object:configurations.0
+str2ul	318.cpp	/^unsigned long str2ul(const std::string& str) {$/;"	f	typeref:typename:unsigned long
+streambuf	.vscode/settings.json	/^        "streambuf": "cpp",$/;"	s	object:files.associations
+string	.vscode/settings.json	/^        "string": "cpp",$/;"	s	object:files.associations
+subarraySum	560.cpp	/^int subarraySum(vector<int>& nums, int k) {$/;"	f	typeref:typename:int
+subtractProductAndSum	1281.cpp	/^int subtractProductAndSum(int n) {$/;"	f	typeref:typename:int
+sumFourDivisors	1390.cpp	/^int sumFourDivisors(vector<int>& nums) { return 1; }$/;"	f	typeref:typename:int
+sumOfThree	2177.cpp	/^vector<long long> sumOfThree(long long num) {$/;"	f	typeref:typename:vector<long long>
+superPow	372.cpp	/^int superPow(int a, vector<int>& b) { return 0; }/;"	f	typeref:typename:int
+swapPairs	24.cpp	/^ListNode *swapPairs(ListNode *head) {$/;"	f	typeref:typename:ListNode *
+system_error	.vscode/settings.json	/^        "system_error": "cpp",$/;"	s	object:files.associations
+tasks	.vscode/tasks.json	/^    "tasks": [$/;"	a
+text	.vscode/launch.json	/^                    "text": "-enable-pretty-printing",$/;"	s	object:configurations.0.setupCommands.0
+thread	.vscode/settings.json	/^        "thread": "cpp"$/;"	s	object:files.associations
+threeSum	15.cpp	/^vector<vector<int>> threeSum(vector<int>& nums) {$/;"	f	typeref:typename:vector<vector<int>>
+time	dbg.h	/^struct time {};$/;"	s	namespace:dbg
+to_int	15.cpp	/^int to_int(uint64_t v) {$/;"	f	typeref:typename:int
+topKFrequent	347.cpp	/^vector<int> topKFrequent(vector<int>& nums, int k) {$/;"	f	typeref:typename:vector<int>
+topKFrequent	692.cpp	/^vector<string> topKFrequent(vector<string>& words, int k) {$/;"	f	typeref:typename:vector<string>
+traverse	46.cpp	/^void traverse(std::vector<int> &state,const std::vector<int>& nums, std::vector<std::vector<int>/;"	f	typeref:typename:void
+traverse	743.cpp	/^void traverse(int point,int time){$/;"	f	typeref:typename:void
+traverseStack	22.cpp	/^void traverseStack(int sz,int current,int max,std::string &s,std::vector<std::string>& res){$/;"	f	typeref:typename:void
+traverseTree	863.cpp	/^void traverseTree(TreeNode* node,$/;"	f	typeref:typename:void
+traverseTree	98.cpp	/^void traverseTree(TreeNode *node, int &last_val, bool &res) {$/;"	f	typeref:typename:void
+triangleNumber	611.cpp	/^int triangleNumber(vector<int>& nums) {$/;"	f	typeref:typename:int
+tuple	.vscode/settings.json	/^        "tuple": "cpp",$/;"	s	object:files.associations
+type	.vscode/launch.json	/^            "type": "cppdbg",$/;"	s	object:configurations.0
+type	.vscode/tasks.json	/^            "type": "cppbuild",$/;"	s	object:tasks.0
+type	dbg.h	/^  using type = Default;$/;"	t	struct:dbg::detail_detector::detector	typeref:typename:Default
+type	dbg.h	/^  using type = Op<Args...>;$/;"	t	struct:dbg::detail_detector::detector	typeref:typename:Op<Args...>
+type	dbg.h	/^  using type = T;$/;"	t	struct:dbg::last	typeref:typename:T
+type	dbg.h	/^  using type = typename last<U...>::type;$/;"	t	struct:dbg::last	typeref:typename:last<U...>::type
+type	dbg.h	/^print_type<T> type() {$/;"	f	namespace:dbg	typeref:typename:print_type<T>
+type_list_to_string	dbg.h	/^std::string type_list_to_string() {$/;"	f	namespace:dbg	typeref:typename:std::string
+type_name	dbg.h	/^std::string type_name() {$/;"	f	namespace:dbg	typeref:typename:std::string
+type_name_impl	dbg.h	/^const char* type_name_impl() {$/;"	f	namespace:dbg	typeref:typename:const char *
+type_tag	dbg.h	/^struct type_tag {};$/;"	s	namespace:dbg
+type_traits	.vscode/settings.json	/^        "type_traits": "cpp",$/;"	s	object:files.associations
+typeinfo	.vscode/settings.json	/^        "typeinfo": "cpp",$/;"	s	object:files.associations
+unionSet	1584.cpp	/^void unionSet(int x, int y) {$/;"	f	typeref:typename:void
+unionSet	547.cpp	/^void unionSet(int x, int y) {$/;"	f	typeref:typename:void
+unionSet	template/dsu.cpp	/^void unionSet(int x, int y) {$/;"	f	typeref:typename:void
+uniqueOccurrences	1207.cpp	/^bool uniqueOccurrences(vector<int>& arr) {$/;"	f	typeref:typename:bool
+uniquePaths	62.cpp	/^int uniquePaths(int m, int n) {$/;"	f	typeref:typename:int
+unordered_map	.vscode/settings.json	/^        "unordered_map": "cpp",$/;"	s	object:files.associations
+unordered_set	.vscode/settings.json	/^        "unordered_set": "cpp",$/;"	s	object:files.associations
+unsigned_type	dbg.h	/^      using unsigned_type = typename std::make_unsigned<T>::type;$/;"	t	function:dbg::pretty_print	typeref:typename:std::make_unsigned<T>::type
+utility	.vscode/settings.json	/^        "utility": "cpp",$/;"	s	object:files.associations
+val	24.cpp	/^    int val;$/;"	m	struct:ListNode	typeref:typename:int	file:
+val	ds.h	/^    int val;$/;"	m	struct:TreeNode	typeref:typename:int
+valid	1456.cpp	/^bool valid(char c) {$/;"	f	typeref:typename:bool
+valid	498.cpp	/^bool valid(int x, int y, int r, int c) {$/;"	f	typeref:typename:bool
+valid	93.cpp	/^bool valid(std::string &s) {$/;"	f	typeref:typename:bool
+validSquare	593.cpp	/^bool validSquare(vector<int>& p1, vector<int>& p2, vector<int>& p3,$/;"	f	typeref:typename:bool
+valid_1	91.cpp	/^bool valid_1(char c) { return c != '0'; }$/;"	f	typeref:typename:bool
+valid_2	91.cpp	/^bool valid_2(char c1, char c2) {$/;"	f	typeref:typename:bool
+validateStackSequences	946.cpp	/^bool validateStackSequences(vector<int>& pushed, vector<int>& popped) {$/;"	f	typeref:typename:bool
+value	dbg.h	/^  static constexpr bool value =$/;"	m	struct:dbg::detail::is_container	typeref:typename:bool
+value_t	dbg.h	/^  using value_t = std::false_type;$/;"	t	struct:dbg::detail_detector::detector	typeref:typename:std::false_type
+value_t	dbg.h	/^  using value_t = std::true_type;$/;"	t	struct:dbg::detail_detector::detector	typeref:typename:std::true_type
+variant	.vscode/settings.json	/^        "variant": "cpp",$/;"	s	object:files.associations
+vector	.vscode/settings.json	/^        "vector": "cpp",$/;"	s	object:files.associations
+version	.vscode/c_cpp_properties.json	/^    "version": 4$/;"	n
+version	.vscode/tasks.json	/^    "version": "2.0.0"$/;"	s
+void_t	dbg.h	/^using void_t = void;$/;"	t	namespace:dbg::detail_detector	typeref:typename:void
+windowsSdkVersion	.vscode/c_cpp_properties.json	/^            "windowsSdkVersion": "10.0.18362.0",$/;"	s	object:configurations.0
+xfacet	.vscode/settings.json	/^        "xfacet": "cpp",$/;"	s	object:files.associations
+xhash	.vscode/settings.json	/^        "xhash": "cpp",$/;"	s	object:files.associations
+xiosbase	.vscode/settings.json	/^        "xiosbase": "cpp",$/;"	s	object:files.associations
+xlocale	.vscode/settings.json	/^        "xlocale": "cpp",$/;"	s	object:files.associations
+xlocbuf	.vscode/settings.json	/^        "xlocbuf": "cpp",$/;"	s	object:files.associations
+xlocinfo	.vscode/settings.json	/^        "xlocinfo": "cpp",$/;"	s	object:files.associations
+xlocmes	.vscode/settings.json	/^        "xlocmes": "cpp",$/;"	s	object:files.associations
+xlocmon	.vscode/settings.json	/^        "xlocmon": "cpp",$/;"	s	object:files.associations
+xlocnum	.vscode/settings.json	/^        "xlocnum": "cpp",$/;"	s	object:files.associations
+xloctime	.vscode/settings.json	/^        "xloctime": "cpp",$/;"	s	object:files.associations
+xmemory	.vscode/settings.json	/^        "xmemory": "cpp",$/;"	s	object:files.associations
+xstddef	.vscode/settings.json	/^        "xstddef": "cpp",$/;"	s	object:files.associations
+xstring	.vscode/settings.json	/^        "xstring": "cpp",$/;"	s	object:files.associations
+xtr1common	.vscode/settings.json	/^        "xtr1common": "cpp",$/;"	s	object:files.associations
+xtree	.vscode/settings.json	/^        "xtree": "cpp",$/;"	s	object:files.associations
+xutility	.vscode/settings.json	/^        "xutility": "cpp",$/;"	s	object:files.associations
