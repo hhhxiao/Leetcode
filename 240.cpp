@@ -26,7 +26,7 @@ bool searchMatrix(vector<vector<int>>& matrix, int target) {
     auto it = std::upper_bound(matrix[0].begin(), matrix[0].end(), target);
     int index = std::distance(matrix[0].begin(), it);
     printf("index = %d", index);
-    int row = matrix[0].size();
+    int row = matrix.size();
     for (int i = 0; i < index; i++) {
         if (matrix[0][index] == target || matrix[row - 1][index] == target)
             return true;
