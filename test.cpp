@@ -1,9 +1,7 @@
 #include <iostream>
 
+const int a = 12;
 int main() {
-    while (std::cin.peek() != EOF) {
-        std::cout << std::cin.peek() << std::endl;
-        char c;
-        std::cin >> c;
-    }
+    char arr[a];
+    return 0;
 }
