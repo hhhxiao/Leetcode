@@ -1,2 +1,3 @@
 *.exe
 .vsocode
+.out
