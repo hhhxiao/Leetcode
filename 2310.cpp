@@ -42,6 +42,7 @@ int minimumNumbers(int num, int k) {
 }
 
 int main() {
+
     std::cout << "res is " << minimumNumbers(10, 3);
     return 0;
 }
