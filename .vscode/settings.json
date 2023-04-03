@@ -79,7 +79,9 @@
         "format": "cpp",
         "forward_list": "cpp",
         "mutex": "cpp",
-        "stop_token": "cpp"
+        "stop_token": "cpp",
+        "ranges": "cpp",
+        "span": "cpp"
     },
     "C_Cpp.intelliSenseEngineFallback": "Enabled"
 }
