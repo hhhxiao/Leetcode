@@ -1,0 +1,1 @@
+#define ALL(v) v.begin(), v.end()
