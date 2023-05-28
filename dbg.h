@@ -7,9 +7,26 @@
 #include <unordered_set>
 #include <vector>
 
-// #define dbg(x) Printer<decltype(x)>::print(x);
+#define KNRM "\x1B[0m"
+#define KRED "\x1B[31m"
+#define KGRN "\x1B[32m"
+#define KYEL "\x1B[33m"
+#define KBLU "\x1B[34m"
+#define KMAG "\x1B[35m"
+#define KCYN "\x1B[36m"
+#define KWHT "\x1B[37m"
 
-template <typename T>
+template <typename T, typename... U>
+struct DbgDecay {
+    using type = std::decay_t<T, U...>;
+};
+
+template <typename T, size_t N>
+struct DbgDecay<T[N]> {
+    using type = T[N];
+};
+
+template <typename T, typename... U>
 struct DbgType {
     static std::string name() { return "unknown"; }
     static std::string value(const T& t) { return "unknown"; }
@@ -45,6 +62,30 @@ template <>
 struct DbgType<const char*> {
     static std::string name() { return "const char*"; }
     static std::string value(const char* t) { return t; }
+};
+
+template <typename T, size_t M>
+struct DbgType<T[M]> {
+    static std::string name() { return DbgType<T>::name() + "[" + std::to_string(M) + "]"; }
+    static std::string value(T (&t)[M]) {
+        if (M == 0) return "{}";
+        T* b = t;
+        T* e = t + M;
+        std::string s = "{" + DbgType<std::decay_t<decltype(*b)>>::value(*b);
+        b++;
+        while (b != e) {
+            s += ", " + DbgType<std::decay_t<decltype(*b)>>::value(*b);
+            ++b;
+        };
+
+        return s + "}";
+    }
+};
+
+template <typename T>
+struct DbgType<T*> {
+    static std::string name() { return DbgType<T>::name() + "*"; }
+    static std::string value(T* t) { return "?"; }
 };
 
 // 容器
@@ -109,17 +150,8 @@ struct DbgType<std::unordered_map<K, V>> {
     static std::string name() { return "u_map<" + DbgType<K>::name() + "," + DbgType<V>::name() + ">"; }
     static std::string value(const std::unordered_map<K, V>& t) { return container_to_str(t); }
 };
-#define KNRM "\x1B[0m"
-#define KRED "\x1B[31m"
-#define KGRN "\x1B[32m"
-#define KYEL "\x1B[33m"
-#define KBLU "\x1B[34m"
-#define KMAG "\x1B[35m"
-#define KCYN "\x1B[36m"
-#define KWHT "\x1B[37m"
-
-void print(const std::string& name, const std::string& type, const std::string& value) {
+void x_print(const std::string& name, const std::string& type, const std::string& value) {
     printf(KCYN "%s" KNRM " = " KWHT "%s" KGRN " (%s)\n" KNRM, name.c_str(), type.c_str(), value.c_str());
 }
 
-#define dbg(x) print(#x, DbgType<decltype(x)>::value(x), DbgType<decltype(x)>::name())
+#define dbg(x) x_print(#x, DbgType<DbgDecay<decltype(x)>::type>::value(x), DbgType<DbgDecay<decltype(x)>::type>::name())
