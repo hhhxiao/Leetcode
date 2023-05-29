@@ -2,16 +2,19 @@
 #include <iostream>
 #include <vector>
 
-auto read_matrix(FILE* fp, int row, int col) -> std::vector<std::vector<int>> {
-    if (!fp) {
+template <typename T>
+auto read_matrix(const std::string& name, int row, int col) -> std::vector<std::vector<T>> {
+    std::fstream f(name);
+
+    if (!f.is_open()) {
         printf("can not open file\n");
         return {};
     }
 
-    std::vector<std::vector<int>> res(row, std::vector<int>(col, 0));
+    std::vector<std::vector<T>> res(row, std::vector<T>(col, T{}));
     for (int i = 0; i < row; i++) {
         for (int j = 0; j < col; j++) {
-            fscanf(fp, "%d", &res[i][j]);
+            f >> res[i][j];
         }
     }
 

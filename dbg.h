@@ -38,8 +38,8 @@ struct DbgType {
         static std::string name() { return #T; }                    \
         static std::string value(T t) { return std::to_string(t); } \
     };
+
 BASE_TYPE(bool)
-BASE_TYPE(char)
 BASE_TYPE(short)
 BASE_TYPE(int)
 BASE_TYPE(long)
@@ -51,6 +51,13 @@ BASE_TYPE(unsigned long)
 BASE_TYPE(unsigned long long)
 BASE_TYPE(float)
 BASE_TYPE(double)
+
+template <>
+struct DbgType<char> {
+    static std::string name() { return "char"; }
+    static std::string value(char t) { return std::string(1, t); }
+};
+
 // 字符串
 template <>
 struct DbgType<std::string> {
