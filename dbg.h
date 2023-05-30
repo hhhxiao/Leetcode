@@ -6,7 +6,7 @@
 #include <unordered_map>
 #include <unordered_set>
 #include <vector>
-
+#ifdef COLOR_FUL
 #define KNRM "\x1B[0m"
 #define KRED "\x1B[31m"
 #define KGRN "\x1B[32m"
@@ -15,7 +15,17 @@
 #define KMAG "\x1B[35m"
 #define KCYN "\x1B[36m"
 #define KWHT "\x1B[37m"
+#else
+#define KNRM ""
+#define KRED ""
+#define KGRN ""
+#define KYEL ""
+#define KBLU ""
+#define KMAG ""
+#define KCYN ""
+#define KWHT ""
 
+#endif
 template <typename T, typename... U>
 struct DbgDecay {
     using type = std::decay_t<T, U...>;
@@ -55,7 +65,7 @@ BASE_TYPE(double)
 template <>
 struct DbgType<char> {
     static std::string name() { return "char"; }
-    static std::string value(char t) { return std::string(1, t); }
+    static std::string value(char t) { return "'" + std::string(1, t) + "'"; }
 };
 
 // 字符串
@@ -81,7 +91,7 @@ struct DbgType<T[M]> {
         std::string s = "{" + DbgType<std::decay_t<decltype(*b)>>::value(*b);
         b++;
         while (b != e) {
-            s += ", " + DbgType<std::decay_t<decltype(*b)>>::value(*b);
+            s += " " + DbgType<std::decay_t<decltype(*b)>>::value(*b);
             ++b;
         };
 
@@ -105,7 +115,7 @@ std::string container_to_str(const Container& v) {
     std::string s = "{" + DbgType<std::decay_t<decltype(*b)>>::value(*b);
     b++;
     while (b != e) {
-        s += ", " + DbgType<std::decay_t<decltype(*b)>>::value(*b);
+        s += " " + DbgType<std::decay_t<decltype(*b)>>::value(*b);
         ++b;
     };
 

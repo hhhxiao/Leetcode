@@ -65,6 +65,9 @@ bool solve(vector<vector<char>>& b) {
 void solveSudoku(vector<vector<char>>& board) {
     solve(board);
     board = res;
+    for (auto d : res) {
+        dbg(d);
+    }
 }
 
 int main() {
