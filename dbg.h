@@ -1,8 +1,10 @@
 #include <array>
 #include <iostream>
 #include <map>
+#include <ratio>
 #include <set>
 #include <string>
+#include <type_traits>
 #include <unordered_map>
 #include <unordered_set>
 #include <vector>
@@ -27,8 +29,11 @@
 
 #endif
 template <typename T, typename... U>
-struct DbgDecay {
-    using type = std::decay_t<T, U...>;
+struct DbgDecay;
+
+template <typename T>
+struct DbgDecay<T> {
+    using type = std::decay_t<T>;
 };
 
 template <typename T, size_t N>

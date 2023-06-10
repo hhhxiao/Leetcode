@@ -6,7 +6,7 @@ void mono_stack() {
     std::vector<int> stack;
     for (int i = 0; i < v.size(); i++) {
         int x = v[i];
-        //插入
+        // 插入
         while (!stack.empty() && stack.back() < x) {
             printf("POP: %d\n", stack.back());
             stack.pop_back();
