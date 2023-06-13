@@ -8,7 +8,8 @@
 #include <unordered_map>
 #include <unordered_set>
 #include <vector>
-#ifdef COLOR_FUL
+#define COLOR
+#ifdef COLOR
 #define KNRM "\x1B[0m"
 #define KRED "\x1B[31m"
 #define KGRN "\x1B[32m"
