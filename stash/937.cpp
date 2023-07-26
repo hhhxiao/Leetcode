@@ -5,7 +5,7 @@
 
 using namespace std;
 
-std::tuple<std::string, std::string> sp(const std::string& log) {
+auto sp(const std::string& log) {
     auto it = log.find_first_of(' ');
     return std::make_tuple(std::string(log.begin(), log.begin() + it), std::string(log.begin() + it + 1, log.end()));
 }
