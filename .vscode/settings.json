@@ -81,5 +81,8 @@
         "xtree": "cpp",
         "xutility": "cpp",
         "array": "cpp"
+    },
+    "[cpp]": {
+        "editor.formatOnPaste": true
     }
 }
