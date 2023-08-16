@@ -1,5 +1,6 @@
 #include <algorithm>
 #include <array>
+#include <bitset>
 #include <cmath>
 #include <cstdint>
 #include <iostream>
@@ -14,3 +15,4 @@
 #include <vector>
 
 #include "dbg.h"
+
