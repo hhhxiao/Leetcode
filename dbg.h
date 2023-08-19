@@ -155,26 +155,35 @@ struct DbgType<std::unordered_set<T>> {
 // pair & map
 template <typename K, typename V>
 struct DbgType<std::pair<K, V>> {
-    static std::string name() { return "pair" + DbgType<K>::name() + "," + DbgType<V>::name() + ">"; }
+    static std::string name() {
+        return "pair" + DbgType<K>::name() + "," + DbgType<V>::name() + ">";
+    }
     static std::string value(const std::pair<K, V>& t) {
-        return "{" + DbgType<std::decay_t<K>>::value(t.first) + " -> " + DbgType<std::decay_t<V>>::value(t.second) +
-               "}";
+        return "{" + DbgType<std::decay_t<K>>::value(t.first) + " -> " +
+               DbgType<std::decay_t<V>>::value(t.second) + "}";
     }
 };
 
 template <typename K, typename V>
 struct DbgType<std::map<K, V>> {
-    static std::string name() { return "map<" + DbgType<K>::name() + "," + DbgType<V>::name() + ">"; }
+    static std::string name() {
+        return "map<" + DbgType<K>::name() + "," + DbgType<V>::name() + ">";
+    }
     static std::string value(const std::map<K, V>& t) { return container_to_str(t); }
 };
 
 template <typename K, typename V>
 struct DbgType<std::unordered_map<K, V>> {
-    static std::string name() { return "u_map<" + DbgType<K>::name() + "," + DbgType<V>::name() + ">"; }
+    static std::string name() {
+        return "u_map<" + DbgType<K>::name() + "," + DbgType<V>::name() + ">";
+    }
     static std::string value(const std::unordered_map<K, V>& t) { return container_to_str(t); }
 };
-void x_print(const std::string& name, const std::string& type, const std::string& value) {
-    printf(KCYN "%s" KNRM " = " KWHT "%s" KGRN " (%s)\n" KNRM, name.c_str(), type.c_str(), value.c_str());
+inline void x_print(const std::string& name, const std::string& type, const std::string& value) {
+    printf(KCYN "%s" KNRM " = " KWHT "%s" KGRN " (%s)\n" KNRM, name.c_str(), type.c_str(),
+           value.c_str());
 }
 
-#define dbg(x) x_print(#x, DbgType<DbgDecay<decltype(x)>::type>::value(x), DbgType<DbgDecay<decltype(x)>::type>::name())
+#define dbg(x)                                                  \
+    x_print(#x, DbgType<DbgDecay<decltype(x)>::type>::value(x), \
+            DbgType<DbgDecay<decltype(x)>::type>::name())
