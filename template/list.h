@@ -9,7 +9,7 @@ struct ListNode {
     ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
 
-void printList(ListNode *head) {
+inline void printList(ListNode *head) {
     if (head) {
         printf("%d -> ", head->val);
         printList(head->next);
@@ -18,7 +18,7 @@ void printList(ListNode *head) {
     }
 }
 
-ListNode *vectoToList(const std::vector<int> &list) {
+inline ListNode *vecToList(const std::vector<int> &list) {
     if (list.empty()) return nullptr;
     ListNode *head = new ListNode(list[0]);
     ListNode *ptr = head;
