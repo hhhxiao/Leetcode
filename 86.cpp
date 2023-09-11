@@ -39,7 +39,7 @@ ListNode* partition(ListNode* head, int x) {
 }
 
 int main() {
-    auto* list = vecToList({1, 2});
+    auto* list = vecToList({2, 1, 1, 1, 1});
 
     printList(partition(list, 2));
     return 0;
